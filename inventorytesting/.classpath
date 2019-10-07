@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/apache-tomcat-7.0.75/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="C:/apache-tomcat-7.0.75/lib/javamail.jar"/>
+	<classpathentry kind="lib" path="C:/apache-tomcat-7.0.75/lib/javax.activation.jar"/>
+	<classpathentry kind="lib" path="C:/apache-tomcat-7.0.75/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/apache-tomcat-7.0.75/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/apache-tomcat-7.0.37/lib/jl1.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

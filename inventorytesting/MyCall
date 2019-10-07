@@ -1,0 +1,24 @@
+import java.sql.*;
+public class MyCall {
+	public static void main(String[] args) {
+		Connection con;
+		CallableStatement st;
+		ResultSet rs;
+		try{
+			Class.forName("com.mysql.jdbc.Driver");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","root");
+			st=con.prepareCall("{ call getStudents(?) }");
+			st.setInt(1, 102);
+			rs=st.executeQuery();
+			while(rs.next())
+			{
+				System.out.println(rs.getInt(1));
+				System.out.println(rs.getString(2));
+				System.out.println(rs.getInt(3));
+				System.out.println(rs.getInt(4));
+			}
+		}
+		catch(Exception e){}
+	}
+
+}

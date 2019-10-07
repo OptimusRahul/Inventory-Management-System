@@ -1,0 +1,18 @@
+import java.util.*;
+import java.io.*;
+public class UseProp {
+	public static void main(String[] args) {
+		try{
+		FileReader fr=new FileReader("config.properties");
+		Properties pr=new Properties();
+		pr.load(fr);
+		System.out.println(pr.getProperty("company"));
+		System.out.println(pr.getProperty("phone"));
+		System.out.println(pr.getProperty("user"));
+		System.out.println(pr.getProperty("pass"));
+		}
+		catch(Exception e)
+		{}
+	}
+
+}

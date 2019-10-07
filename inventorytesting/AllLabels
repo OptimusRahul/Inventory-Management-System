@@ -1,0 +1,194 @@
+//comman properties
+
+cmp_id=Company ID
+cmp_name=Company Name
+date=Date
+shead=Supplier Info
+sup_id=Supplier ID
+sup_name=Supplier Name
+bank_name=Bank Name
+bank_acno=Bank Account No
+ifsc=IFSC Code
+sname=Enter Name
+gst=GST NO
+pan=PAN/AADHAAR
+pans=PAN NO
+aadhar=AADHAAR NO
+address=Address
+email=E-mail
+name=Name
+acno=Account No
+city=City
+contact=Contact No
+ghead=ITEM CATEGORY OF GST
+iname=Item Name
+
+//customer
+hcustomer=Customer_Info
+customerentry=Customer Entry
+customername=Customer Name
+customertype=Customer Type
+retailer=Retailer
+coust=Customer
+
+
+cat_gst=GST Category
+cmp_info=Company Information
+own_id=Owner Id
+own1=Owner 1
+own2=Owner 2
+add1=Address 1
+add2=Address 2
+add=Address 
+cliab=Liability if any
+ph_no=Phone No
+
+//Category_Datashow.java-Completed
+cds_head=CATEGORY OF GOODS NAVIGATION
+cat_name=Category
+cds_id=Category Id
+//Button
+Btn_next=Next
+Btn_previous=Previous
+Btn_first=First
+Btn_last=Last
+Btn_back=Back
+Btn_new=New
+Btn_insert=Insert
+Btn_update=Update
+Btn_delete=Delete
+Btn_submit=Submit
+Btn_cancel=Cancel
+Btn_add_cat=Add Category
+Btn_find=Find
+Btn_reset=RESET
+Btn_save=Save
+Btn_edit=Edit
+Btn_rb_pan=Pan NUMBER
+Btn_rb_adh=Aadhaar Number
+Btn_navigate=Navigation
+Btn_ADD=Add
+
+//menubar
+
+company=COMPANY
+supplier=SUPPLIER
+itementry=ITEM ENTRIES
+catname=CATEGORY
+itemin=ITEM IN REGISTER
+unit=UNIT
+add=ADD
+search=SEARCH
+navi=NAVIGATION
+itemadd=ITEM ADD
+openacc=OPEN ACCOUNT
+del=DELETE
+
+//Common
+Blank_label= 
+Inval_gst=Invalid GST Number 
+Inval_adh=Invalid Aadhaar Number
+Inval_pan=Invalid PAN Number
+Digit_Allow=Only Digits are Allowed
+Letter_allow=Only Letters are Allowed
+	
+//Categoryofgoods.java-Completed
+cog_head=CATEGORY OF GOODS
+
+//CatSearch.java-Completed
+cs_cat_name=Category Name :
+cs_head=SEARCH CATEGORY HERE
+cs_cat_id=Category Id :
+cs_gst=GST : 
+cs_date=Date : 
+
+//CompanyOpeningAcc.java-Completed
+coa_cmpid=Enter Company ID-:
+coa_open=Enter Opening Amount-:
+coa_liab=Enter Liability if Any-:
+
+//FormCompany.java-Completed
+fc_cname=Company Information
+fc_gst=GST Number
+fc_ownid=Owner ID
+fc_head=Company Information
+
+//FrmGoodsCategoryGST.java
+fgc_head="ITEM CATEGORY OF GST...... 
+fgc_head1=CATEGORY OF GOODS
+fgc_itemname=ITEM NAME
+
+cat_id=CATEGORY ID
+fgc_cat_name=CATEGORY NAME
+fgc_gst_cat=GST CATEGORY
+fgc_date=DATE
+
+//FrmInRegister.java
+ir_head=IN REGISTER FORM
+qtyin=QTY IN
+check=I am agree for your terms & Conditions.
+
+//InventoryWelcmPage.java
+background=Backimage
+heading=Inventory Management System
+itemnavigation=ITEM_NAVIGATION
+
+//Itemopenqty.java
+ie_head=Item Entry
+ie_cat=Choose Category
+ie_item=Select Item
+ie_unit=Select Unit
+ie_sunit=Select SubUnit
+ie_oqun=Opening Quantity
+ie_rqun=Reorder Quantity
+ie_cqun=Current Quantity
+ie_ppunit=Price per Unit
+ie_isod=Item Stock Open Date
+ie_effprice=Effective Price
+
+//OpeningCapitalAccount.java
+oca_head=Opening Capital Account
+camount=Opening Amount
+
+//Supplier_DataShow.java
+sds_head=Supplier_Navigation
+
+//UnitMaster.java
+um_head1=UNIT MASTER
+um_id=Unit ID
+
+//UnitSizeMaster.java
+usm_head=UNIT SIZE MASTER
+usm_id=Unit size_Id
+usm_name=Unit Name
+usm_sname=Size_Name
+usm_des=Description
+
+//UserForm.java
+JLadminHeading=REGISTRATION
+JLusername=USERNAME
+JLpassword=PASSWORD
+jRuser=USER
+jRadmin=ADMIN
+JBsubmit=Submit
+JBcancel=Cancel
+
+//VerifyUsernamePassword.java
+jLlogin=LOGIN
+jLforgetPassword=Forgot Password
+JBlogin=LOGIN
+JBreset=RESET
+JBForgetPassword=Click Here
+JBregister=Register
+jLnotRegister=If not register, click here
+
+//FOR VALIDATIONS
+xgstno=Invalid GST Number
+xemail=Invalid E-Mail Address
+xphone=Invalid Phone Number
+xaccount=Invalid Account No
+xpan=Invalid Pan Number
+xaadhaar=Invalid Aadhaar Number
+onlttr=Only letters are allowed
+xitemn=Invalid Item Name
+xifsc=Invalid IFSC Code
